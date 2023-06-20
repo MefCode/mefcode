@@ -108,40 +108,11 @@ h1 {animation: shadowAnimation 5s infinite;}
 
 /* Estilos de Acerca de */
 
-.acerca-de-uno {
-  width: 50%;
-  display: inline-block;
-  box-sizing: border-box;
-  vertical-align: top;
-  padding-right:2rem}
-.acerca-de-uno p {
-  text-align: justify;
-  font-size: 1.2rem;
-  font-weight: 300;
-  margin-bottom: 2rem}
-.img-acerca-de-uno {
-  width: 50%;
-  float: right;}
-
-.acerca-de-dos {
-  width: 50%;
-  display: inline-block;
-  box-sizing: border-box;
-  vertical-align: top;
-  }
-.acerca-de-dos p {
-  text-align: justify;
-  font-size: 1.2rem;
-  font-weight: 300;
-  margin-bottom: 2rem}
-.img-acerca-de-dos {
-  width: 50%;
-  float: left;}
-
-.img-acerca-de-dos img {padding-left: 5rem; padding-top: 2rem}
-.img-acerca-de-uno img {padding-left: 5rem;}
-
-.btn-proyectos { padding-left:51rem;}
+.background-acerca-de {background-image: url('../img/backgrounds/programacion-futuro-b.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 /* Estilos de Proyectos */
 
