@@ -85,27 +85,25 @@ footer {
 
 /* Estilos de index */
 
-.menu-index {padding: 0rem; overflow: auto;}
-
-.bienvenido {
-  padding: 6rem 5rem; 
-  width: 50%;
-  display: inline-block;
-  box-sizing: border-box;
+.index {margin-top: 200px; margin-bottom: 200px;}
+.background-index {background-image: url('../img/backgrounds/mesa-de-trabajo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.bienvenido p {
-  font-size: 1.4rem;
-  font-weight:
-  300;
-  margin-bottom: 1rem}
+h1 {animation: shadowAnimation 5s infinite;}
 
-.bienvenido h1 {
-  font-size: 2.5rem;
-  margin-bottom: 3rem}
-
-.video {margin-left:20px;
-  float:right;
+@keyframes shadowAnimation {
+  0% {
+    text-shadow: none;
+  }
+  50% {
+    text-shadow: 2px 2px 15px #f7e8d3;
+  }
+  100% {
+    text-shadow: none;
+  }
 }
 
 /* Estilos de Acerca de */
