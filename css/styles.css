@@ -116,41 +116,10 @@ h1 {animation: shadowAnimation 5s infinite;}
 
 /* Estilos de Proyectos */
 
-
-
-.section-proyectos article {
-  display: inline-block;
-  background-color: #333;
-  color:#fff4e0;
-  padding: 2rem;
-  margin: 0.5rem 3rem 0.5rem 0rem;
-  width: 20rem;
-  height: 200px;
-  transition: transform 0.4s ease;
-  Overflow: scroll;
-  box-shadow: 10px 10px 10px #707070;
-  border-radius: 2%;
-  overflow-x: hidden;
-}
-
-.section-proyectos article:hover { transform: scale(1.1); }
-
-.section-proyectos article img   { width: 100%; }
-
-.section-proyectos article h3 {
-  font-size: 1.5rem; 
-  margin-bottom: 1rem;
-  color: #fff4e0
-}
-
-.section-proyectos article h3 a {
-  text-decoration: none;
-  color:#fff4e0
-}
-
-.descripcion-proyecto {
-  font-weight: 100;
-  margin-bottom: 3.5rem;}
+.card-text {color: #333}
+.card-body {background-color: #fff4e0;}
+.card-body h5 {color: #333}
+.carousel-control-next, .carousel-control-prev {background-color: #333 !important; width: 50px !important}
 
 /* Estilos de Servicios */
 
