@@ -123,12 +123,17 @@ h1 {animation: shadowAnimation 5s infinite;}
 
 /* Estilos de Servicios */
 
-.section-servicios {font-size: 1.2rem; font-weight: 300;}
-.section-servicios p {margin-bottom: 1rem;}
-.section-servicios ul li {margin-left: 6rem; margin-bottom: 2rem}
-.servicios-lista ul {display: inline-block; width: 60%; vertical-align: top; padding-top: 5rem;}
-.servicios-imagen {display: inline-block;}
-.servicios-imagen img {display: block;}
+.background-servicios {background-image: url('../img/backgrounds/programacion-futuro-a.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.servicios .card {  transition: transform 0.4s ease;}
+.servicios .card:hover {  
+  transform: scale(1.05);
+  box-shadow: 2px 2px 15px #f7e8d3;
+}
 
 /* Estilos de Contacto */
 
