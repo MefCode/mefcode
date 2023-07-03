@@ -96,8 +96,8 @@ footer {
 
 .background-acerca-de {background-image: url('../img/backgrounds/programacion-futuro-b.jpg');
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed
 }
 
 /* Estilos de Proyectos */
@@ -106,13 +106,19 @@ footer {
 .card-body {background-color: #fff4e0;}
 .card-body h5 {color: #333}
 .carousel-control-next, .carousel-control-prev {background-color: #333 !important; width: 50px !important}
+.background-proyectos {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/backgrounds/code.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 /* Estilos de Servicios */
 
 .background-servicios {background-image: url('../img/backgrounds/programacion-futuro-a.jpg');
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed
 }
 
 .servicios .card {  transition: transform 0.4s ease;}
