@@ -114,6 +114,13 @@ footer {
   background-attachment: fixed;
 }
 
+@media (max-width: 576px) {
+  .card-text {font-size: 1rem;}
+  .card-body h5 {font-size: 1.5rem;}
+  .card-body {padding-top: 1.5rem !important;}
+  .btn-proyectos {font-size: 1rem;}
+}
+
 /* Estilos de Servicios */
 
 .background-servicios {background-image: url('../img/backgrounds/programacion-futuro-a.jpg');
