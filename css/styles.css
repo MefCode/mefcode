@@ -102,10 +102,11 @@ footer {
 
 /* Estilos de Proyectos */
 
-.card-text {color: #333}
+.card-text {color: #333; font-size: 1.6rem;}
 .card-body {background-color: #fff4e0;}
-.card-body h5 {color: #333}
-.carousel-control-next, .carousel-control-prev {background-color: #333 !important; width: 50px !important}
+.card-body h5 {color: #333; font-size: 2rem;}
+.btn-proyectos {font-size: 1.5rem;}
+.carousel-control-next, .carousel-control-prev {background-color: #137DC5 !important; width: 40px !important; margin-left: 11px; margin-right: 11px;}
 .background-proyectos {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/backgrounds/code.jpg');
   background-size: cover;
