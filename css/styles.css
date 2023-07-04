@@ -102,9 +102,9 @@ footer {
 
 /* Estilos de Proyectos */
 
-.card-text {color: #333; font-size: 1.6rem;}
-.card-body {background-color: #fff4e0;}
-.card-body h5 {color: #333; font-size: 2rem;}
+.proyectos .card-text {color: #333; font-size: 1.6rem;}
+.proyectos .card-body {background-color: #fff4e0;}
+.proyectos .card-body h5 {color: #333; font-size: 2rem;}
 .btn-proyectos {font-size: 1.5rem;}
 .carousel-control-next, .carousel-control-prev {background-color: #137DC5 !important; width: 40px !important; margin-left: 11px; margin-right: 11px;}
 .background-proyectos {
@@ -115,9 +115,9 @@ footer {
 }
 
 @media (max-width: 576px) {
-  .card-text {font-size: 1rem;}
-  .card-body h5 {font-size: 1.5rem;}
-  .card-body {padding-top: 1.5rem !important;}
+  .proyectos .card-text {font-size: 1rem;}
+  .proyectos .card-body h5 {font-size: 1.5rem;}
+  .proyectos .card-body {padding-top: 1.5rem !important;}
   .btn-proyectos {font-size: 1rem;}
 }
 
@@ -134,6 +134,10 @@ footer {
   transform: scale(1.05);
   box-shadow: 2px 2px 15px #f7e8d3;
 }
+
+.servicios .card-text {color: #333;}
+.servicios .card-body {background-color:}
+.servicios .card-body h5 {color: #333;}
 
 /* Estilos de Contacto */
 
