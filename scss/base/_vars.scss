@@ -8,7 +8,9 @@ $clr-black: #1f1f1f;
 $rem05: 0.5rem;
 $rem1: 1rem;
 $rem15: 1.5rem;
+$px10: 10px;
 $px50: 50px;
+$px54: 54px;
 
 $fw4: 400;
 $txt-s: 2px 2px #333;
@@ -18,7 +20,15 @@ $shw-btn: 2px 2px 15px #f7e8d3;
 $shw-btn-focus: 50px 50px 50px #333;
 $tdn: none;
 
-$gradient: linear-gradient(to top, rgba(253, 185, 185, 0), rgb(0, 0, 0));
+$gradient-top: linear-gradient(to top, rgba(253, 185, 185, 0), rgb(0, 0, 0));
+$gradient-bottom: linear-gradient(to bottom, rgba(51, 51, 51, 0), rgb(0, 0, 0));
+$op08: 0.8;
 $op03: 0.3;
-$op1: 1;
+$op10: 1;
 $op-tst: opacity 0.5s;
+$in-b: inline-block;
+
+$social-tst: transform 0.4s ease;
+$gs100: grayscale(100%);
+$gs0: grayscale(0%);
+$scale: scale(1.1);

@@ -1,0 +1,21 @@
+/* Estilos de footer */
+
+footer {  
+    background-image: $gradient-bottom;
+    opacity: $op08; 
+  }
+  
+  .social-icon {
+    display: $in-b;
+    margin-right: $px10;
+    transition: $social-tst;
+    filter: $gs100;
+    &:hover {
+        filter: $gs0;
+        transform: $scale;
+    }
+    img {
+        width: $px54;
+        height: $px54;
+    }
+  }

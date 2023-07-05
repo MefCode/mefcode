@@ -1,11 +1,11 @@
 /* Estilos de header */
 
 .navbar {
-    background-image: $gradient;
-    opacity: $op0;
+    background-image: $gradient-top;
+    opacity: $op03;
     transition: $op-tst; 
     &:hover {
-        opacity: $op1;
+        opacity: $op10;
     }
 }
 
