@@ -1,0 +1,13 @@
+/* Estilos de index */
+
+.index {
+    margin-top: $rem1 * 10; 
+    margin-bottom: $rem1 * 12;
+}
+
+.background-index {
+    background-image: $bg-index;
+    background-size: $cover;
+    background-position: $center;
+    background-repeat: $no-rpt;
+}

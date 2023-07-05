@@ -98,4 +98,17 @@ footer {
   height: 54px;
 }
 
+/* Estilos de index */
+.index {
+  margin-top: 10rem;
+  margin-bottom: 12rem;
+}
+
+.background-index {
+  background-image: url("../img/backgrounds/mesa-de-trabajo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 /*# sourceMappingURL=style.css.map */
