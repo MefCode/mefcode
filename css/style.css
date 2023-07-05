@@ -111,4 +111,12 @@ footer {
   background-repeat: no-repeat;
 }
 
+/* Estilos de Acerca de */
+.background-acerca-de {
+  background-image: url("../img/backgrounds/programacion-futuro-b.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
 /*# sourceMappingURL=style.css.map */
