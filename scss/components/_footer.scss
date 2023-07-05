@@ -8,11 +8,11 @@ footer {
   .social-icon {
     display: $in-b;
     margin-right: $px10;
-    transition: $social-tst;
+    transition: $tst;
     filter: $gs100;
     &:hover {
         filter: $gs0;
-        transform: $scale;
+        transform: $scale10;
     }
     img {
         width: $px54;

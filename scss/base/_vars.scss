@@ -21,8 +21,8 @@ $fw4: 400;
 $txt-s: 2px 2px #333;
 $fonts: 'Roboto', Tahoma, Verdana, sans-serif;
 $bdr-btn: 3px solid;
-$shw-btn: 2px 2px 15px #f7e8d3;
-$shw-btn-focus: 50px 50px 50px #333;
+$shw: 2px 2px 15px #f7e8d3;
+$shw-focus: 50px 50px 50px #333;
 $tdn: none;
 
 $gradient-top: linear-gradient(to top, rgba(253, 185, 185, 0), rgb(0, 0, 0));
@@ -33,15 +33,17 @@ $op10: 1;
 $op-tst: opacity 0.5s;
 $in-b: inline-block;
 
-$social-tst: transform 0.4s ease;
+$tst: transform 0.4s ease;
 $gs100: grayscale(100%);
 $gs0: grayscale(0%);
-$scale: scale(1.1);
+$scale10: scale(1.1);
+$scale05: scale(1.05);
 
 
 $bg-index: url('../img/backgrounds/mesa-de-trabajo.jpg');
 $bg-about: url('../img/backgrounds/programacion-futuro-b.jpg');
 $bg-project: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/backgrounds/code.jpg') fixed no-repeat cover;
+$bg-servicios: url("../img/backgrounds/programacion-futuro-a.jpg") fixed no-repeat cover;
 
 $cover: cover;
 $center: center;

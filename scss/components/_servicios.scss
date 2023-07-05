@@ -1,0 +1,24 @@
+/* Estilos de Servicios */
+
+.background-servicios {
+  background: $bg-servicios;
+}
+
+.servicios {
+  .card {
+    transition: $tst;
+    &:hover {
+      transform: $scale05;
+      box-shadow: $shw;
+    }
+  }
+  .card-text {
+    color: $clr-grey;
+  }
+  .card-body {
+    background-color: $clr-beige;
+    h5 {
+      color: $clr-grey;
+    }
+  }
+}

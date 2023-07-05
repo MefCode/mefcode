@@ -42,7 +42,7 @@ b {
   --bs-btn-active-color: $clr-black !important;
   --bs-btn-active-bg: $clr-black !important;
   --bs-btn-active-border-color: $clr-beige !important;
-  --bs-btn-focus-shadow-rgb: $shw-btn-focus !important;
+  --bs-btn-focus-shadow-rgb: $shw-focus !important;
   border: 3px solid !important;
   box-shadow: 2px 2px 15px #f7e8d3;
 }
@@ -161,6 +161,27 @@ footer {
   .btn-proyectos {
     font-size: 1rem;
   }
+}
+/* Estilos de Servicios */
+.background-servicios {
+  background: url("../img/backgrounds/programacion-futuro-a.jpg") fixed no-repeat cover;
+}
+
+.servicios .card {
+  transition: transform 0.4s ease;
+}
+.servicios .card:hover {
+  transform: scale(1.05);
+  box-shadow: 2px 2px 15px #f7e8d3;
+}
+.servicios .card-text {
+  color: #333;
+}
+.servicios .card-body {
+  background-color: #f7e8d3;
+}
+.servicios .card-body h5 {
+  color: #333;
 }
 
 /*# sourceMappingURL=style.css.map */

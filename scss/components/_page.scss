@@ -25,13 +25,13 @@ b   {
   --bs-btn-active-color: $clr-black !important;
   --bs-btn-active-bg: $clr-black !important;
   --bs-btn-active-border-color: $clr-beige !important;
-  --bs-btn-focus-shadow-rgb: $shw-btn-focus !important;
+  --bs-btn-focus-shadow-rgb: $shw-focus !important;
   border: $bdr-btn !important;
-  box-shadow: $shw-btn;
+  box-shadow: $shw;
   .btn-a {
     color: $clr-beige;
     text-decoration: $tdn;
-    text-shadow: $shw-btn;
+    text-shadow: $shw;
     }
 }
 
