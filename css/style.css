@@ -1,3 +1,61 @@
+@charset "UTF-8";
+/* Estilos de scrollbar */
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
 
+::-webkit-scrollbar-track {
+  background-color: #f7e8d3;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #137DC5;
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #0d5483;
+}
+
+/* Estilos de página */
+* {
+  font-family: "Roboto", Tahoma, Verdana, sans-serif;
+  color: #f7e8d3;
+}
+
+body {
+  background-color: #333 !important;
+  overflow-x: hidden;
+}
+
+b {
+  color: #137DC5;
+  font-weight: 400;
+  text-shadow: 2px 2px #333;
+}
+
+.btn-secondary {
+  --bs-btn-bg: $clr-blue !important;
+  --bs-btn-border-color: $clr-beige !important;
+  --bs-btn-hover-bg: $clr-grey !important;
+  --bs-btn-hover-border-color: $clr-beige !important;
+  --bs-btn-focus-shadow-rgb: 130,138,145;
+  --bs-btn-active-color: $clr-black !important;
+  --bs-btn-active-bg: $clr-black !important;
+  --bs-btn-active-border-color: $clr-beige !important;
+  --bs-btn-focus-shadow-rgb: $shw-btn-focus !important;
+  border: 3px solid !important;
+  box-shadow: 2px 2px 15px #f7e8d3;
+}
+.btn-secondary .btn-a {
+  color: #f7e8d3;
+  text-decoration: none;
+  text-shadow: 2px 2px 15px #f7e8d3;
+}
+
+.btn-group-lg > .btn, .btn-lg {
+  --bs-btn-padding-x: $rem15 !important;
+  --bs-btn-font-size: $rem15 !important;
+  --bs-btn-border-radius: $px50 !important;
+}
 
 /*# sourceMappingURL=style.css.map */

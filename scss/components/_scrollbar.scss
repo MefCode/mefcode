@@ -1,0 +1,18 @@
+/* Estilos de scrollbar */
+
+::-webkit-scrollbar { 
+    width: $rem05;
+}
+
+::-webkit-scrollbar-track { 
+    background-color: $clr-beige;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: $clr-blue;
+    border-radius: $rem1; 
+    &:hover{
+        background-color: $clr-blue-h;
+    }
+}
+
