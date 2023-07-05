@@ -1,0 +1,19 @@
+/* Estilos de header */
+
+.navbar {
+    background-image: $gradient;
+    opacity: $op0;
+    transition: $op-tst; 
+    &:hover {
+        opacity: $op1;
+    }
+}
+
+
+.navbar-nav {
+  --bs-nav-link-color: $clr-grey2 !important;
+  --bs-nav-link-hover-color: $clr-beige !important;
+}
+
+.nav-link:hover { 
+    text-shadow: $shw-btn; }

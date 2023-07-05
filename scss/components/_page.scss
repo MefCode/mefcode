@@ -27,11 +27,11 @@ b   {
   --bs-btn-active-border-color: $clr-beige !important;
   --bs-btn-focus-shadow-rgb: $shw-btn-focus !important;
   border: $bdr-btn !important;
-  box-shadow: $shw-btn-txt;
+  box-shadow: $shw-btn;
   .btn-a {
     color: $clr-beige;
     text-decoration: $tdn;
-    text-shadow: $shw-btn-txt;
+    text-shadow: $shw-btn;
     }
 }
 
