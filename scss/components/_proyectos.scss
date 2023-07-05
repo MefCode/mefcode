@@ -1,0 +1,49 @@
+/* Estilos de Proyectos */
+
+.proyectos {
+    .card-text {
+      color: $clr-grey;
+      font-size: $rem13;
+    }
+    .card-body {
+      background-color: $clr-beige;
+      h5 {
+        color: $clr-grey;
+        font-size: $rem10*2;
+      }
+    }
+  }
+
+  .btn-proyectos {
+    font-size: $rem15;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    background-color: $clr-blue !important;
+    width: $px10*3 !important;
+    margin-left: $px10+1;
+    margin-right: $px10+1;
+  }
+
+  .background-proyectos {
+    background-image: $bg-project;
+  }
+  
+  @media (max-width: 576px) {
+    .proyectos {
+      .card-text {
+        font-size: $rem08;
+      }
+      .card-body {
+        h5 {
+          font-size: $rem15;
+        }
+        padding-top: $rem15 !important;
+      }
+    }
+    .btn-proyectos {
+      font-size: $rem10;
+    }
+  }
+  

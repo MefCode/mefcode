@@ -119,4 +119,48 @@ footer {
   background-repeat: no-repeat;
 }
 
+/* Estilos de Proyectos */
+.proyectos .card-text {
+  color: #333;
+  font-size: 1.3rem;
+}
+.proyectos .card-body {
+  background-color: #f7e8d3;
+}
+.proyectos .card-body h5 {
+  color: #333;
+  font-size: 2rem;
+}
+
+.btn-proyectos {
+  font-size: 1.5rem;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  background-color: #137DC5 !important;
+  width: 30px !important;
+  margin-left: 11px;
+  margin-right: 11px;
+}
+
+.background-proyectos {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/backgrounds/code.jpg") fixed no-repeat cover;
+}
+
+@media (max-width: 576px) {
+  .proyectos .card-text {
+    font-size: 0.8rem;
+  }
+  .proyectos .card-body {
+    padding-top: 1.5rem !important;
+  }
+  .proyectos .card-body h5 {
+    font-size: 1.5rem;
+  }
+  .btn-proyectos {
+    font-size: 1rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
