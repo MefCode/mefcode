@@ -9,9 +9,9 @@
 
 .servicios {
   .card {
-    transition: $tst;
+    transition: $tst-s;
     &:hover {
-      transform: $scale05;
+      transform: $card-scl;
       box-shadow: $shw;
     }
   }

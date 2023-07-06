@@ -1,7 +1,7 @@
 /* Estilos de scrollbar */
 
 ::-webkit-scrollbar { 
-    width: $rem05;
+    width: $sb-w;
 }
 
 ::-webkit-scrollbar-track { 
@@ -10,7 +10,7 @@
 
 ::-webkit-scrollbar-thumb {
     background-color: $clr-blue;
-    border-radius: $rem10; 
+    border-radius: $sb-w*2; 
     &:hover{
         background-color: $clr-blue-h;
     }

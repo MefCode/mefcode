@@ -17,6 +17,7 @@ $gradient-bottom: linear-gradient(to bottom, rgba(51, 51, 51, 0), rgb(0, 0, 0));
 $shw: 2px 2px 15px #f7e8d3;
 $shw-blue: 2px 2px 15px #137DC5;
 $shw-focus: 50px 50px 50px #333;
+$shw-bold: 2px 2px #000000;
 
 //opacity//
 $op0-ani: 0; //opacity animaciones//
@@ -43,47 +44,44 @@ $shw-ani: shadowAnimation 5s infinite;
 $slideL-ani: slideInLeft 0.5s ease-in-out;
 $transX0: translateX(100%);
 $transX1: translateX(0);
+$card-scl: scale(1.05);
+$tst-s: transform 0.4s ease;
 
 //social icon footer//
-$dplay-i: inline-block;
-$mrg-i: 10px;
-$tst: transform 0.4s ease;
-$gs1: grayscale(100%);
-$gs0: grayscale(0%);
-$scale10: scale(1.1);
+$social-dplay: inline-block;
+$social-mrg: 10px;
+$social-tst: transform 0.4s ease;
+$social-gs1: grayscale(100%);
+$social-gs0: grayscale(0%);
+$social-scl: scale(1.1);
 $social-w: 54px;
 $social-h: 54px;
 
-
-
+//margin//
 $mt-index: 1rem; //margin top index //
 $mb-index: 1rem; //margin bottom index //
-$mrg-projects: 10px; //margen proyectos //
-
-
-
-
-
-
-
-
-
-//miscelaneous//
-$bdr-btn: 3px solid;
-$tdn: none;
-$scale05: scale(1.05);
-$op00: 0;
-$op08: 0.8;
-
-//sizes rem//
-$rem05: 0.5rem;
-$rem08: 0.8rem;
-$rem10: 1rem;
-$rem13: 1.3rem;
-$rem15: 1.5rem;
-//sizes px//
-$px50: 50px;
+$ctrl-projects: 10px; //margen proyectos //
 
 //text//
-$fw4: 400;
-$txt-s: 2px 2px #333;
+$fw-body: 400;
+$fw-bold: 400;
+$fw-p: 100;
+$tdn: none; // text decoration //
+
+//bottom//
+$btn-pdg: 1.5rem;
+$btn-fnt-sz: 1.5rem;
+$btn-rd: 3rem;
+$btn-brd: 3px solid;
+
+//cards//
+$fz-card: 1.3rem;
+
+//scrollbar//
+$sb-w: 0.5rem;
+
+
+
+
+
+

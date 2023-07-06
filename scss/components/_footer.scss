@@ -6,13 +6,13 @@ footer {
   }
   
   .social-icon {
-    display: $dplay-i;
-    margin-right: $mrg-i;
-    transition: $tst;
-    filter: $gs1;
+    display: $social-dplay;
+    margin-right: $social-mrg;
+    transition: $social-tst;
+    filter: $social-gs1;
     &:hover {
-        filter: $gs0;
-        transform: $scale10;
+        filter: $social-gs0;
+        transform: $social-scl;
     }
     img {
         width: $social-w;

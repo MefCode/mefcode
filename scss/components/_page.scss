@@ -12,8 +12,8 @@ body{
 
 b   {
         color: $clr-blue;
-        font-weight: $fw4;
-        text-shadow: $txt-s;
+        font-weight: $fw-bold;
+        text-shadow: $shw-bold;
     }
 
 .btn-secondary {
@@ -26,7 +26,7 @@ b   {
   --bs-btn-active-bg: #{$clr-black} !important;
   --bs-btn-active-border-color: #{$clr-beige} !important;
   --bs-btn-focus-shadow-rgb: #{$shw-focus} !important;
-  border: $bdr-btn !important;
+  border: $btn-brd !important;
   box-shadow: $shw;
   .btn-a {
     color: $clr-beige;
@@ -36,8 +36,8 @@ b   {
 }
 
 .btn-group-lg>.btn, .btn-lg {
-  --bs-btn-padding-x: #{$rem15} !important;
-  --bs-btn-font-size: #{$rem15} !important;
-  --bs-btn-border-radius: #{$px50} !important;
+  --bs-btn-padding-x: #{$btn-pdg} !important;
+  --bs-btn-font-size: #{$btn-fnt-sz} !important;
+  --bs-btn-border-radius: #{$btn-rd} !important;
 }
 

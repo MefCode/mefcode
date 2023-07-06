@@ -3,27 +3,27 @@
 .proyectos {
     .card-text {
       color: $clr-grey;
-      font-size: $rem13;
+      font-size: $fz-card;
     }
     .card-body {
       background-color: $clr-beige;
       h5 {
         color: $clr-grey;
-        font-size: $rem10*2;
+        font-size: $fz-card+0.7;
       }
     }
   }
 
   .btn-proyectos {
-    font-size: $rem15;
+    font-size: $btn-fnt-sz;
   }
 
   .carousel-control-next,
   .carousel-control-prev {
     background-color: $clr-blue !important;
-    width: $mrg-projects*3 !important;
-    margin-left: $mrg-projects+1;
-    margin-right:$mrg-projects+1;
+    width: $ctrl-projects*3 !important;
+    margin-left: $ctrl-projects+1;
+    margin-right:$ctrl-projects+1;
   }
 
   .background-proyectos {
@@ -36,17 +36,17 @@
   @media (max-width: 576px) {
     .proyectos {
       .card-text {
-        font-size: $rem08;
+        font-size: $fz-card - 0.5;
       }
       .card-body {
         h5 {
-          font-size: $rem15;
+          font-size: $fz-card +0.2;
         }
-        padding-top: $rem15 !important;
+        padding-top: $fz-card +0.2 !important;
       }
     }
     .btn-proyectos {
-      font-size: $rem10;
+      font-size: $fz-card - 0.3;
     }
   }
   
