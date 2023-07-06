@@ -184,4 +184,18 @@ footer {
   color: #333;
 }
 
+/* Estilos de Contacto */
+.background-contacto {
+  background: url("../img/backgrounds/dispositivos.jpg") no-repeat center cover;
+}
+
+.form-control {
+  background-color: #f7e8d3 !important;
+  color: #333 !important;
+}
+.form-control:focus {
+  border-color: #137DC5 !important;
+  box-shadow: 2px 2px 15px #137DC5 !important;
+}
+
 /*# sourceMappingURL=style.css.map */

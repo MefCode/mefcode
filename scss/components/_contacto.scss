@@ -1,0 +1,14 @@
+/* Estilos de Contacto */
+
+.background-contacto {
+    background: $bg-contacto;
+  }
+  
+  .form-control {
+    background-color: $clr-beige !important;
+    color: $clr-grey !important;
+    &:focus {
+      border-color: $clr-blue !important;
+      box-shadow: $shw-blue !important;
+    }
+  }
