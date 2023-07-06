@@ -11,8 +11,8 @@
 
 
 .navbar-nav {
-  --bs-nav-link-color: $clr-grey2 !important;
-  --bs-nav-link-hover-color: $clr-beige !important;
+  --bs-nav-link-color: #{$clr-grey2} !important;
+  --bs-nav-link-hover-color: #{$clr-beige} !important;
 }
 
 .nav-link:hover { 

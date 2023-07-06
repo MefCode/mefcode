@@ -1,13 +1,13 @@
 /* Estilos de index */
 
 .index {
-    margin-top: $rem10 * 10; 
-    margin-bottom: $rem10 * 12;
+    margin-top: $rem10 * 8; 
+    margin-bottom: $rem10 * 8;
 }
 
 .background-index {
     background-image: $bg-index;
-    background-size: $cover;
-    background-position: $center;
-    background-repeat: $no-rpt;
+    background-size: $bg-sz;
+    background-position: $bg-pst;
+    background-repeat: $bg-rpt;
 }

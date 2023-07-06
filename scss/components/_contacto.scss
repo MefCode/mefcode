@@ -1,7 +1,10 @@
 /* Estilos de Contacto */
 
 .background-contacto {
-    background: $bg-contacto;
+    background-image: $bg-contact;
+    background-size: $bg-sz;
+    background-position: $bg-pst;
+    background-repeat: $bg-rpt;
   }
   
   .form-control {

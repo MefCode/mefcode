@@ -1,7 +1,10 @@
 /* Estilos de Servicios */
 
 .background-servicios {
-  background: $bg-servicios;
+  background-image: $bg-services;
+  background-size: $bg-sz;
+  background-repeat: $bg-rpt;
+  background-attachment: $bg-atch;
 }
 
 .servicios {

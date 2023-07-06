@@ -28,6 +28,9 @@
 
   .background-proyectos {
     background-image: $bg-project;
+    background-size: $bg-sz;
+    background-repeat: $bg-rpt;
+    background-attachment: $bg-atch;
   }
   
   @media (max-width: 576px) {

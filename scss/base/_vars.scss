@@ -44,14 +44,14 @@ $scale05: scale(1.05);
 
 $bg-index: url('../img/backgrounds/mesa-de-trabajo.jpg');
 $bg-about: url('../img/backgrounds/programacion-futuro-b.jpg');
-$bg-project: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/backgrounds/code.jpg') fixed no-repeat cover;
-$bg-servicios: url("../img/backgrounds/programacion-futuro-a.jpg") fixed no-repeat cover;
-$bg-contacto: url("../img/backgrounds/dispositivos.jpg") no-repeat center cover;
+$bg-project: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/backgrounds/code.jpg');
+$bg-services: url('../img/backgrounds/programacion-futuro-a.jpg');
+$bg-contact: url('../img/backgrounds/dispositivos.jpg');
 
-$cover: cover;
-$center: center;
-$no-rpt: no-repeat;
-$fixed: fixed;
+$bg-sz: cover;
+$bg-pst: center;
+$bg-rpt: no-repeat;
+$bg-atch: fixed;
 
 $fadeIn-ani: fadeIn 3s forwards;
 $shw-ani: shadowAnimation 5s infinite;

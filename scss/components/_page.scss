@@ -6,7 +6,8 @@
 }
 
 body{
-        background-color: $clr-grey !important; overflow-x: hidden;
+        background-color: $clr-grey !important;
+        overflow-x: hidden;
     }
 
 b   {
@@ -16,16 +17,15 @@ b   {
     }
 
 .btn-secondary {
-
-  --bs-btn-bg: $clr-blue !important;
-  --bs-btn-border-color: $clr-beige !important;
-  --bs-btn-hover-bg: $clr-grey !important;
-  --bs-btn-hover-border-color: $clr-beige !important;
+  --bs-btn-bg: #{$clr-blue} !important;
+  --bs-btn-border-color: #{$clr-beige} !important;
+  --bs-btn-hover-bg: #{$clr-grey} !important;
+  --bs-btn-hover-border-color: #{$clr-beige} !important;
   --bs-btn-focus-shadow-rgb: 130,138,145;
-  --bs-btn-active-color: $clr-black !important;
-  --bs-btn-active-bg: $clr-black !important;
-  --bs-btn-active-border-color: $clr-beige !important;
-  --bs-btn-focus-shadow-rgb: $shw-focus !important;
+  --bs-btn-active-color: #{$clr-black} !important;
+  --bs-btn-active-bg: #{$clr-black} !important;
+  --bs-btn-active-border-color: #{$clr-beige} !important;
+  --bs-btn-focus-shadow-rgb: #{$shw-focus} !important;
   border: $bdr-btn !important;
   box-shadow: $shw;
   .btn-a {
@@ -36,8 +36,8 @@ b   {
 }
 
 .btn-group-lg>.btn, .btn-lg {
-  --bs-btn-padding-x: $rem15 !important;
-  --bs-btn-font-size: $rem15 !important;
-  --bs-btn-border-radius: $px50 !important;
+  --bs-btn-padding-x: #{$rem15} !important;
+  --bs-btn-font-size: #{$rem15} !important;
+  --bs-btn-border-radius: #{$px50} !important;
 }
 
