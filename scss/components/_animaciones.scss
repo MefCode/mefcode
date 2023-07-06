@@ -1,0 +1,47 @@
+/*Animaciones Generales*/
+
+.fade-in {
+    opacity: $op00;
+    animation: $fadeIn;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: $op00;
+    }
+    to {
+      opacity: $op10;
+    }
+  }
+  
+  h1 {
+    animation: $shw-ani;
+  }
+  
+  @keyframes shadowAnimation {
+    0% {
+      text-shadow: none;
+    }
+    50% {
+      text-shadow: $shw;
+    }
+    100% {
+      text-shadow: none;
+    }
+  }
+  
+  @keyframes slideInLeft {
+    0% {
+      transform: $transX1;
+      opacity: $op00;
+    }
+    100% {
+      transform: $transX0;
+      opacity: $op10;
+    }
+  }
+  
+  .menu-animation {
+    animation: $slideL-ani;
+  }
+  

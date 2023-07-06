@@ -28,6 +28,7 @@ $tdn: none;
 
 $gradient-top: linear-gradient(to top, rgba(253, 185, 185, 0), rgb(0, 0, 0));
 $gradient-bottom: linear-gradient(to bottom, rgba(51, 51, 51, 0), rgb(0, 0, 0));
+$op00: 0;
 $op08: 0.8;
 $op03: 0.3;
 $op10: 1;
@@ -51,3 +52,9 @@ $cover: cover;
 $center: center;
 $no-rpt: no-repeat;
 $fixed: fixed;
+
+$fadeIn-ani: fadeIn 3s forwards;
+$shw-ani: shadowAnimation 5s infinite;
+$slideL-ani: slideInLeft 0.5s ease-in-out;
+$transX1: translateX(100%);
+$transX0: translateX(0);
