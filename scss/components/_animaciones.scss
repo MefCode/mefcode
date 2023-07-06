@@ -1,16 +1,16 @@
 /*Animaciones Generales*/
 
 .fade-in {
-    opacity: $op00;
+    opacity: $op0-ani;
     animation: $fadeIn-ani;
   }
   
   @keyframes fadeIn {
     from {
-      opacity: $op00;
+      opacity: $op0-ani;
     }
     to {
-      opacity: $op10;
+      opacity: $op1-ani;
     }
   }
   
@@ -32,12 +32,12 @@
   
   @keyframes slideInLeft {
     0% {
-      transform: $transX1;
-      opacity: $op00;
+      transform: $transX0;
+      opacity: $op0-ani;
     }
     100% {
-      transform: $transX0;
-      opacity: $op10;
+      transform: $transX1;
+      opacity: $op1-ani;
     }
   }
   

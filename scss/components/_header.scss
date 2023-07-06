@@ -2,10 +2,10 @@
 
 .navbar {
     background-image: $gradient-top;
-    opacity: $op03;
-    transition: $op-tst; 
+    opacity: $op-hdr0;
+    transition: $op-hdr-tst; 
     &:hover {
-        opacity: $op10;
+        opacity: $op-hdr1;
     }
 }
 

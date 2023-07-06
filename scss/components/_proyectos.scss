@@ -21,9 +21,9 @@
   .carousel-control-next,
   .carousel-control-prev {
     background-color: $clr-blue !important;
-    width: $px10*3 !important;
-    margin-left: $px10+1;
-    margin-right: $px10+1;
+    width: $mrg-projects*3 !important;
+    margin-left: $mrg-projects+1;
+    margin-right:$mrg-projects+1;
   }
 
   .background-proyectos {

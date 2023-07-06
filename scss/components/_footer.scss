@@ -2,20 +2,20 @@
 
 footer {  
     background-image: $gradient-bottom;
-    opacity: $op08; 
+    opacity: $op-ft; 
   }
   
   .social-icon {
-    display: $in-b;
-    margin-right: $px10;
+    display: $dplay-i;
+    margin-right: $mrg-i;
     transition: $tst;
-    filter: $gs100;
+    filter: $gs1;
     &:hover {
         filter: $gs0;
         transform: $scale10;
     }
     img {
-        width: $px54;
-        height: $px54;
+        width: $social-w;
+        height: $social-h;
     }
   }
