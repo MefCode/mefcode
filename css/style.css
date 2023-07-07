@@ -1,4 +1,24 @@
 @charset "UTF-8";
+.background-index {
+  background-image: url("../img/backgrounds/mesa-de-trabajo.jpg");
+}
+
+.background-acerca-de {
+  background-image: url("../img/backgrounds/programacion-futuro-b.jpg");
+}
+
+.background-proyectos {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/backgrounds/code.jpg");
+}
+
+.background-servicios {
+  background-image: url("../img/backgrounds/programacion-futuro-a.jpg");
+}
+
+.background-contacto {
+  background-image: url("../img/backgrounds/dispositivos.jpg");
+}
+
 /* Estilos de scrollbar */
 ::-webkit-scrollbar {
   width: 0.5rem;
@@ -96,7 +116,6 @@ footer .social-icon img {
 
 /* Estilos de index */
 .background-index {
-  background-image: url("../img/backgrounds/mesa-de-trabajo.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -109,7 +128,6 @@ footer .social-icon img {
 
 /* Estilos de Acerca de */
 .background-acerca-de {
-  background-image: url("../img/backgrounds/programacion-futuro-b.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -121,7 +139,6 @@ footer .social-icon img {
 }
 /* Estilos de Proyectos */
 .background-proyectos {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/backgrounds/code.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -164,7 +181,6 @@ footer .social-icon img {
 }
 /* Estilos de Servicios */
 .background-servicios {
-  background-image: url("../img/backgrounds/programacion-futuro-a.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -189,7 +205,6 @@ footer .social-icon img {
 }
 /* Estilos de Contacto */
 .background-contacto {
-  background-image: url("../img/backgrounds/dispositivos.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -1,0 +1,14 @@
+
+$backgrounds: (
+    index: $bg-index,
+    acerca-de: $bg-about,
+    proyectos: $bg-project,
+    servicios: $bg-services,
+    contacto: $bg-contact,
+);
+
+@each $page, $bg in $backgrounds {
+    .background-#{$page} {
+        background-image: $bg;
+    }
+}
