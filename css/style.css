@@ -117,7 +117,6 @@ footer .social-icon img {
 /* Estilos de index */
 .background-index {
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -140,8 +139,8 @@ footer .social-icon img {
 /* Estilos de Proyectos */
 .background-proyectos {
   background-size: cover;
-  background-repeat: no-repeat;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .proyectos main section .card .card-body {
@@ -182,8 +181,8 @@ footer .social-icon img {
 /* Estilos de Servicios */
 .background-servicios {
   background-size: cover;
-  background-repeat: no-repeat;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .servicios main section .servicios-texto-1 p, .servicios main section .servicios-texto-2 p {
@@ -206,7 +205,6 @@ footer .social-icon img {
 /* Estilos de Contacto */
 .background-contacto {
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
 }
 

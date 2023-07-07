@@ -1,9 +1,9 @@
 /* Estilos de Acerca de */
 
 .background-acerca-de {
-    background-size: $bg-sz;
-    background-attachment: $bg-atch;
-    background-repeat: $bg-rpt;
+    background-size: map-get($bg-styles, bg-sz);
+    background-attachment: map-get($bg-styles, bg-atch);
+    background-repeat: map-get($bg-styles, bg-rpt);
   }
 
   .container {
