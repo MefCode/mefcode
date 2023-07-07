@@ -189,6 +189,7 @@ footer .social-icon img {
 .servicios main section .servicios-texto-1 p, .servicios main section .servicios-texto-2 p {
   font-weight: 300;
   text-shadow: 2px 2px #000000;
+  margin-bottom: 1rem;
 }
 .servicios main section .card {
   transition: transform 0.4s ease;

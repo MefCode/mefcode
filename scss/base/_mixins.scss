@@ -1,7 +1,8 @@
-@mixin p($fw, $shw)
+@mixin p($fw, $shw, $mb)
 {
     font-weight: $fw;
     text-shadow: $shw;
+    margin-bottom: $mb;
 }
 
 // lo inclui en Servicios //

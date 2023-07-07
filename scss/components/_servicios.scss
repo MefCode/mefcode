@@ -11,7 +11,7 @@
     section {
       .servicios-texto-1 {
         p {
-            @include p($fw-p, $shw-bold) //los definí en _vars//
+            @include p($fw-p, $shw-bold, 1rem) //fw y shw los definí en _vars//
         }
       }
       .servicios-texto-2 {
