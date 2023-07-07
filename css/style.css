@@ -115,11 +115,10 @@ footer .social-icon img {
   background-repeat: no-repeat;
 }
 
-.container main section .acerca-de-texto p {
+.container main section .acerca-de-texto-1 p, .container main section .acerca-de-texto-2 p {
   font-weight: 300;
   text-shadow: 2px 2px #000000;
 }
-
 /* Estilos de Proyectos */
 .background-proyectos {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/backgrounds/code.jpg");
@@ -131,12 +130,11 @@ footer .social-icon img {
 .proyectos main section .card .card-body {
   background-color: #f7e8d3;
 }
-.proyectos main section .card .card-body .card-title {
+.proyectos main section .card .card-body .card-title, .proyectos main section .card .card-body .card-text {
   color: #333;
   font-size: 2rem;
 }
 .proyectos main section .card .card-body .card-text {
-  color: #333;
   font-size: 1.3rem;
 }
 .proyectos main section .card .card-body .btn-proyectos {
@@ -154,7 +152,7 @@ footer .social-icon img {
   .proyectos main section .card .card-body {
     padding-top: 1.5rem !important;
   }
-  .proyectos main section .card .card-body .card-title {
+  .proyectos main section .card .card-body .card-title, .proyectos main section .card .card-body .card-text {
     font-size: 1.5rem;
   }
   .proyectos main section .card .card-body .card-text {
@@ -172,7 +170,7 @@ footer .social-icon img {
   background-attachment: fixed;
 }
 
-.servicios main section .acerca-de-servicios {
+.servicios main section .servicios-texto-1 p, .servicios main section .servicios-texto-2 p {
   font-weight: 300;
   text-shadow: 2px 2px #000000;
 }
@@ -186,13 +184,9 @@ footer .social-icon img {
 .servicios main section .card .card-body {
   background-color: #f7e8d3;
 }
-.servicios main section .card .card-body .card-title {
+.servicios main section .card .card-body .card-title, .servicios main section .card .card-body .card-text {
   color: #333;
 }
-.servicios main section .card .card-body .card-text {
-  color: #333;
-}
-
 /* Estilos de Contacto */
 .background-contacto {
   background-image: url("../img/backgrounds/dispositivos.jpg");

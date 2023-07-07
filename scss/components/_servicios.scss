@@ -10,9 +10,14 @@
 .servicios {
   main{
     section {
-      .acerca-de-servicios {
-        font-weight: $fw-p;
-        text-shadow: $shw-bold;
+      .servicios-texto-1 {
+        p {
+          font-weight: $fw-p;
+          text-shadow: $shw-bold;
+        }
+      }
+      .servicios-texto-2 {
+        @extend .servicios-texto-1
       }
       .card {
         transition: $tst-s;
@@ -26,13 +31,10 @@
             color: $clr-grey;
           }
           .card-text {
-            color: $clr-grey;
+            @extend .card-title
           }
         }
       }
     }
   }
-
-
-
 }

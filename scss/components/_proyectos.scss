@@ -18,7 +18,7 @@
               font-size: $fz-card+0.7;
             }
             .card-text {
-              color: $clr-grey;
+              @extend .card-title;
               font-size: $fz-card;
             }
             .btn-proyectos {

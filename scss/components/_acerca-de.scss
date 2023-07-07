@@ -10,11 +10,14 @@
   .container {
     main {
       section{
-        .acerca-de-texto {
+        .acerca-de-texto-1 {
           p {
             font-weight: $fw-p;
             text-shadow: $shw-bold;
           }
+        }
+        .acerca-de-texto-2 {
+          @extend .acerca-de-texto-1;
         }
       }
     }
