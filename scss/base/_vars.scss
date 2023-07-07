@@ -27,17 +27,6 @@ $op-hdr0: 0.3; // opacity header//
 $op-hdr1: 1;
 $op-hdr-tst: opacity 0.5s;
 
-//page backgrounds//
-$bg-index: url('../img/backgrounds/mesa-de-trabajo.jpg');
-$bg-about: url('../img/backgrounds/programacion-futuro-b.jpg');
-$bg-project: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/backgrounds/code.jpg');
-$bg-services: url('../img/backgrounds/programacion-futuro-a.jpg');
-$bg-contact: url('../img/backgrounds/dispositivos.jpg');
-$bg-sz: cover;
-$bg-pst: center;
-$bg-rpt: no-repeat;
-$bg-atch: fixed;
-
 //page animations//
 $fadeIn-ani: fadeIn 3s forwards;
 $shw-ani: shadowAnimation 5s infinite;

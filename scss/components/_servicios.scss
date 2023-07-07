@@ -11,8 +11,7 @@
     section {
       .servicios-texto-1 {
         p {
-          font-weight: $fw-p;
-          text-shadow: $shw-bold;
+            @include p($fw-p, $shw-bold) //los definí en _vars//
         }
       }
       .servicios-texto-2 {

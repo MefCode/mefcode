@@ -2,7 +2,7 @@
 
 .background-contacto {
   background-size: map-get($bg-styles, bg-sz);
-  background-position: map-get($bg-styles, $bg-pst);
+  background-position: map-get($bg-styles, bg-pst);
   background-repeat: map-get($bg-styles, bg-rpt);
 }
 
