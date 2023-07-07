@@ -8,13 +8,13 @@
 body{
         background-color: $clr-grey !important;
         overflow-x: hidden;
-    }
+        b   {
+          color: $clr-blue;
+          font-weight: $fw-bold;
+          text-shadow: $shw-bold;
+        }
+}
 
-b   {
-        color: $clr-blue;
-        font-weight: $fw-bold;
-        text-shadow: $shw-bold;
-    }
 
 .btn-secondary {
   --bs-btn-bg: #{$clr-blue} !important;

@@ -7,3 +7,15 @@
     background-repeat: $bg-rpt;
   }
 
+  .container {
+    main {
+      section{
+        .acerca-de-texto {
+          p {
+            font-weight: $fw-p;
+            text-shadow: $shw-bold;
+          }
+        }
+      }
+    }
+  }

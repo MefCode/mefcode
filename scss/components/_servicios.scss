@@ -8,20 +8,31 @@
 }
 
 .servicios {
-  .card {
-    transition: $tst-s;
-    &:hover {
-      transform: $card-scl;
-      box-shadow: $shw;
+  main{
+    section {
+      .acerca-de-servicios {
+        font-weight: $fw-p;
+        text-shadow: $shw-bold;
+      }
+      .card {
+        transition: $tst-s;
+        &:hover {
+          transform: $card-scl;
+          box-shadow: $shw;
+        }
+        .card-body {
+          background-color: $clr-beige;
+          .card-title {
+            color: $clr-grey;
+          }
+          .card-text {
+            color: $clr-grey;
+          }
+        }
+      }
     }
   }
-  .card-text {
-    color: $clr-grey;
-  }
-  .card-body {
-    background-color: $clr-beige;
-    h5 {
-      color: $clr-grey;
-    }
-  }
+
+
+
 }

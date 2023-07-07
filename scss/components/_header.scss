@@ -1,19 +1,23 @@
 /* Estilos de header */
 
-.navbar {
-    background-image: $gradient-top;
-    opacity: $op-hdr0;
-    transition: $op-hdr-tst; 
-    &:hover {
-        opacity: $op-hdr1;
+header {
+    .navbar {
+        background-image: $gradient-top;
+        opacity: $op-hdr0;
+        transition: $op-hdr-tst; 
+        &:hover {
+            opacity: $op-hdr1;
+        }
     }
+    .navbar-nav {
+        --bs-nav-link-color: #{$clr-grey2} !important;
+        --bs-nav-link-hover-color: #{$clr-beige} !important;
+        .nav-link:hover { 
+            text-shadow: $shw; }
+      }
 }
 
 
-.navbar-nav {
-  --bs-nav-link-color: #{$clr-grey2} !important;
-  --bs-nav-link-hover-color: #{$clr-beige} !important;
-}
 
-.nav-link:hover { 
-    text-shadow: $shw; }
+
+

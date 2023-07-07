@@ -1,13 +1,14 @@
 /* Estilos de index */
 
-.index {
-    margin-top: $mt-index * 8; 
-    margin-bottom: $mb-index * 8;
-}
-
 .background-index {
     background-image: $bg-index;
     background-size: $bg-sz;
     background-position: $bg-pst;
     background-repeat: $bg-rpt;
 }
+
+.index {
+    margin-top: $mt-index * 8; 
+    margin-bottom: $mb-index * 8;
+}
+

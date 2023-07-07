@@ -7,11 +7,15 @@
     background-repeat: $bg-rpt;
   }
   
-  .form-control {
-    background-color: $clr-beige !important;
-    color: $clr-grey !important;
-    &:focus {
-      border-color: $clr-blue !important;
-      box-shadow: $shw-blue !important;
+main {
+  form {
+    .form-control {
+      background-color: $clr-beige !important;
+      color: $clr-grey !important;
+      &:focus {
+        border-color: $clr-blue !important;
+        box-shadow: $shw-blue !important;
+      }
     }
   }
+}  

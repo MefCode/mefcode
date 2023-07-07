@@ -1,52 +1,67 @@
 /* Estilos de Proyectos */
 
+.background-proyectos {
+  background-image: $bg-project;
+  background-size: $bg-sz;
+  background-repeat: $bg-rpt;
+  background-attachment: $bg-atch;
+}
+
 .proyectos {
-    .card-text {
-      color: $clr-grey;
-      font-size: $fz-card;
-    }
-    .card-body {
-      background-color: $clr-beige;
-      h5 {
-        color: $clr-grey;
-        font-size: $fz-card+0.7;
-      }
-    }
-  }
-
-  .btn-proyectos {
-    font-size: $btn-fnt-sz;
-  }
-
-  .carousel-control-next,
-  .carousel-control-prev {
-    background-color: $clr-blue !important;
-    width: $ctrl-projects*3 !important;
-    margin-left: $ctrl-projects+1;
-    margin-right:$ctrl-projects+1;
-  }
-
-  .background-proyectos {
-    background-image: $bg-project;
-    background-size: $bg-sz;
-    background-repeat: $bg-rpt;
-    background-attachment: $bg-atch;
-  }
-  
-  @media (max-width: 576px) {
-    .proyectos {
-      .card-text {
-        font-size: $fz-card - 0.5;
-      }
-      .card-body {
-        h5 {
-          font-size: $fz-card +0.2;
+  main {
+    section {
+        .card {
+          .card-body {
+            background-color: $clr-beige;
+            .card-title {
+              color: $clr-grey;
+              font-size: $fz-card+0.7;
+            }
+            .card-text {
+              color: $clr-grey;
+              font-size: $fz-card;
+            }
+            .btn-proyectos {
+              font-size: $btn-fnt-sz;
+            }  
+          }
         }
-        padding-top: $fz-card +0.2 !important;
-      }
-    }
-    .btn-proyectos {
-      font-size: $fz-card - 0.3;
+
+        .carousel-control-next,
+        .carousel-control-prev {
+          background-color: $clr-blue !important;
+          width: $ctrl-projects*3 !important;
+          margin-left: $ctrl-projects+1;
+          margin-right:$ctrl-projects+1;
+        }
+
     }
   }
+}
+
+
+ 
+@media (max-width: 576px) {
+
+  .proyectos {
+    main {
+      section {
+          .card {
+            .card-body {
+              padding-top: $fz-card + 0.2 !important;
+              .card-title {
+                font-size: $fz-card + 0.2;
+              }
+              .card-text {
+                font-size: $fz-card - 0.4;
+              }
+              .btn-proyectos {
+                font-size: $fz-card - 0.2;
+              }  
+            }
+          }
+      }
+    }
+  }
+}
   

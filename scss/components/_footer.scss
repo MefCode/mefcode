@@ -1,10 +1,8 @@
 /* Estilos de footer */
-
-footer {  
-    background-image: $gradient-bottom;
-    opacity: $op-ft; 
-  }
-  
+ 
+footer {
+  background-image: $gradient-bottom;
+  opacity: $op-ft; 
   .social-icon {
     display: $social-dplay;
     margin-right: $social-mrg;
@@ -19,3 +17,5 @@ footer {
         height: $social-h;
     }
   }
+}
+
