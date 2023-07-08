@@ -14,11 +14,12 @@
             background-color: $clr-beige;
             .card-title {
               color: $clr-grey;
-              font-size: $fz-card+0.7;
+              text-shadow: $shw-txt;
+              font-size: $fsz-card+0.7;
             }
             .card-text {
               @extend .card-title;
-              font-size: $fz-card;
+              font-size: $fsz-card;
             }
             .btn-proyectos {
               font-size: $btn-fnt-sz;
@@ -47,15 +48,15 @@
       section {
           .card {
             .card-body {
-              padding-top: $fz-card + 0.2 !important;
+              padding-top: $fsz-card + 0.2 !important;
               .card-title {
-                font-size: $fz-card + 0.2;
+                font-size: $fsz-card + 0.2;
               }
               .card-text {
-                font-size: $fz-card - 0.4;
+                font-size: $fsz-card - 0.4;
               }
               .btn-proyectos {
-                font-size: $fz-card - 0.2;
+                font-size: $fsz-card - 0.2;
               }  
             }
           }

@@ -5,6 +5,12 @@
     margin-bottom: $mb;
 }
 
+@mixin card($clr, $shw)
+{
+    color: $clr;
+    text-shadow: $shw;
+}
+
 // lo inclui en Servicios //
 // incluí @extends en Servicios y en Proyectos //
 // en Proyectos incluí algunas operaciones //

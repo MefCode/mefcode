@@ -15,22 +15,28 @@
         }
       }
       .servicios-texto-2 {
-        @extend .servicios-texto-1
+        @extend .servicios-texto-1;
+        text-align: $txt-alg;
       }
       .card {
+        text-align: $txt-alg;
+        background-color: $clr-beige;
         transition: $tst-s;
         &:hover {
           transform: $card-scl;
           box-shadow: $shw;
         }
         .card-body {
-          background-color: $clr-beige;
           .card-title {
-            color: $clr-grey;
+            @include card($clr-grey, $shw-txt)
           }
           .card-text {
             @extend .card-title
           }
+        }
+        i {
+          font-size: $fsz-i;
+          @include card($clr-grey, $shw-txt)
         }
       }
     }

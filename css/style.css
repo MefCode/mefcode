@@ -4,7 +4,7 @@
 }
 
 .background-acerca-de {
-  background-image: url("../img/backgrounds/programacion-futuro-b.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/backgrounds/programacion-futuro-b.jpg");
 }
 
 .background-proyectos {
@@ -12,7 +12,7 @@
 }
 
 .background-servicios {
-  background-image: url("../img/backgrounds/programacion-futuro-a.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/backgrounds/programacion-futuro-a.jpg");
 }
 
 .background-contacto {
@@ -149,6 +149,7 @@ footer .social-icon img {
 }
 .proyectos main section .card .card-body .card-title, .proyectos main section .card .card-body .card-text {
   color: #333;
+  text-shadow: 1px 1px #959595;
   font-size: 2rem;
 }
 .proyectos main section .card .card-body .card-text {
@@ -191,19 +192,28 @@ footer .social-icon img {
   text-shadow: 2px 2px #000000;
   margin-bottom: 1rem;
 }
+.servicios main section .servicios-texto-2 {
+  text-align: center;
+}
 .servicios main section .card {
+  text-align: center;
+  background-color: #f7e8d3;
   transition: transform 0.4s ease;
 }
 .servicios main section .card:hover {
   transform: scale(1.05);
   box-shadow: 2px 2px 15px #f7e8d3;
 }
-.servicios main section .card .card-body {
-  background-color: #f7e8d3;
-}
 .servicios main section .card .card-body .card-title, .servicios main section .card .card-body .card-text {
   color: #333;
+  text-shadow: 1px 1px #959595;
 }
+.servicios main section .card i {
+  font-size: 2rem;
+  color: #333;
+  text-shadow: 1px 1px #959595;
+}
+
 /* Estilos de Contacto */
 .background-contacto {
   background-size: cover;

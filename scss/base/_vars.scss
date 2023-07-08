@@ -4,6 +4,7 @@ $clr-blue-h: #0d5483;
 $clr-beige: #f7e8d3;
 $clr-grey: #333;
 $clr-grey2: #f7e8d382;
+$clr-grey3: #959595;
 $clr-black: #1f1f1f;
 
 //page fonts//
@@ -14,10 +15,11 @@ $gradient-top: linear-gradient(to top, rgba(253, 185, 185, 0), rgb(0, 0, 0));
 $gradient-bottom: linear-gradient(to bottom, rgba(51, 51, 51, 0), rgb(0, 0, 0));
 
 //shadows//
-$shw: 2px 2px 15px #f7e8d3;
-$shw-blue: 2px 2px 15px #137DC5;
-$shw-focus: 50px 50px 50px #333;
+$shw: 2px 2px 15px $clr-beige;
+$shw-blue: 2px 2px 15px $clr-blue;
+$shw-focus: 50px 50px 50px $clr-grey;
 $shw-bold: 2px 2px #000000;
+$shw-txt: 1px 1px $clr-grey3;
 
 //opacity//
 $op0-ani: 0; //opacity animaciones//
@@ -56,6 +58,9 @@ $fw-body: 400;
 $fw-bold: 400;
 $fw-p: 300;
 $tdn: none; // text decoration //
+$txt-alg: center; //text align //
+$fsz-card: 1.3rem; //font size card //
+$fsz-i: 2rem; //font size icon //
 
 //bottom//
 $btn-pdg: 1.5rem;
@@ -63,14 +68,7 @@ $btn-fnt-sz: 1.5rem;
 $btn-rd: 3rem;
 $btn-brd: 3px solid;
 
-//cards//
-$fz-card: 1.3rem;
-
 //scrollbar//
 $sb-w: 0.5rem;
-
-
-
-
 
 
