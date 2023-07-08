@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="./img/icon/icon-logo.png" type="image/x-icon">
+  <meta name="description" content="MefCode es un estudio de programación y diseño web especializado en desarrollo Frontend y Backend, integracion de APIs, gestión de base de datos y Hosting.">
+  <meta name="keywords" content="programación web, diseño web, soluciones personalizadas, desarrollo Frontend, desarrollo Backend, integraciones de servicios, APIs, gestión de base de datos, servicio de Hosting, empresas, particulares">
+  <link rel="shortcut icon" href="../img/icon/icon-logo.png" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -46,36 +48,38 @@
     </nav>
   </header>
 
-  <main class="container fade-in">
-    <h1 class="mt-5 mb-5">Contacto</h1>
-    <form>
-      <div class="row">
-        <div class="col-6 mb-3">
-          <label for="nombre">Nombre</label>
-          <input type="text" class="form-control" id="nombre" required>
+  <div class="container fade-in">
+    <main>
+      <h1 class="mt-5 mb-5">Contacto</h1>
+      <form>
+        <div class="row">
+          <div class="col-6 mb-3">
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" id="nombre" required>
+          </div>
+          <div class="col-6 mb-3">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="col-6 mb-3">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" class="form-control" id="telefono" required>
+          </div>
+          <div class="col-6 mb-3">
+            <label for="nombre">Asunto</label>
+            <input type="text" class="form-control" id="asunto" required>
+          </div>
+          <div class="col-12 mb-3">
+            <label for="asunto">Tu mensaje</label>
+            <textarea class="form-control" id="asunto" rows="5" required></textarea>
+          </div>
+          <div class="col-12 justify-content-center d-flex">
+            <button class="btn btn-secondary btn-lg btn-shadow mt-4 mb-5" type="submit">Enviar</button>
+          </div>
         </div>
-        <div class="col-6 mb-3">
-          <label for="email">Email</label>
-          <input type="email" class="form-control" id="email" required>
-        </div>
-        <div class="col-6 mb-3">
-          <label for="telefono">Teléfono</label>
-          <input type="tel" class="form-control" id="telefono" required>
-        </div>
-        <div class="col-6 mb-3">
-          <label for="nombre">Asunto</label>
-          <input type="text" class="form-control" id="asunto" required>
-        </div>
-        <div class="col-12 mb-3">
-          <label for="asunto">Tu mensaje</label>
-          <textarea class="form-control" id="asunto" rows="5" required></textarea>
-        </div>
-        <div class="col-12 justify-content-center d-flex">
-          <button class="btn btn-secondary btn-lg btn-shadow mt-4 mb-5" type="submit">Enviar</button>
-        </div>
-      </div>
-    </form>
-  </main>
+      </form>
+    </main>
+  </div>
 
   <footer class="mt-auto">
     <div class="container-fluid">
