@@ -5,6 +5,11 @@
     background-attachment: map-get($bg-styles, bg-atch);
     background-repeat: map-get($bg-styles, bg-rpt);
   }
+@media (max-width: 576px) {
+    .background-acerca-de {
+      background-position: map-get($bg-styles, bg-pst);
+  }
+}
 
   .container {
     main {

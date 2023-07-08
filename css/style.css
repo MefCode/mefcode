@@ -4,7 +4,7 @@
 }
 
 .background-acerca-de {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/backgrounds/programacion-futuro-b.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/backgrounds/programacion-futuro-b.jpg");
 }
 
 .background-proyectos {
@@ -12,7 +12,7 @@
 }
 
 .background-servicios {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/backgrounds/programacion-futuro-a.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/backgrounds/programacion-futuro-a.jpg");
 }
 
 .background-contacto {
@@ -133,6 +133,11 @@ footer .social-icon img {
   background-repeat: no-repeat;
 }
 
+@media (max-width: 576px) {
+  .background-acerca-de {
+    background-position: center;
+  }
+}
 .container main section .acerca-de-texto-1 p, .container main section .acerca-de-texto-2 p {
   font-weight: 300;
   text-shadow: 2px 2px #000000;
