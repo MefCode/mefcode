@@ -51,30 +51,30 @@
   <div class="container fade-in">
     <main>
       <h1 class="mt-5 mb-5">Contacto</h1>
-      <form>
+      <form action="procesar_form.php" method="post">
         <div class="row">
           <div class="col-6 mb-3">
             <label for="nombre">Nombre</label>
-            <input type="text" class="form-control" id="nombre" required>
+            <input type="text" class="form-control" id="nombre" name="nombre" pattern="[A-Za-z ]+" maxlength="50" required>
           </div>
           <div class="col-6 mb-3">
             <label for="email">Email</label>
-            <input type="email" class="form-control" id="email" required>
+            <input type="email" name="email" class="form-control" id="email" maxlength="50" required>
           </div>
           <div class="col-6 mb-3">
             <label for="telefono">Teléfono</label>
-            <input type="tel" class="form-control" id="telefono" required>
+            <input type="tel" name="telefono" class="form-control" id="telefono" pattern="[0-9]+" maxlength="20" required>
           </div>
           <div class="col-6 mb-3">
-            <label for="nombre">Asunto</label>
-            <input type="text" class="form-control" id="asunto" required>
+            <label for="asunto">Asunto</label>
+            <input type="text" name="asunto" class="form-control" id="asunto" maxlength="100" required>
           </div>
           <div class="col-12 mb-3">
-            <label for="asunto">Tu mensaje</label>
-            <textarea class="form-control" id="asunto" rows="5" required></textarea>
+            <label for="mensaje">Tu mensaje</label>
+            <textarea name="mensaje" class="form-control" id="mensaje" rows="5" maxlength="500" required></textarea>
           </div>
           <div class="col-12 justify-content-center d-flex">
-            <button class="btn btn-secondary btn-lg btn-shadow mt-4 mb-5" type="submit">Enviar</button>
+            <button class="btn btn-mefcode btn-lg btn-shadow mt-4 mb-5 text-white" type="submit">Enviar</button>
           </div>
         </div>
       </form>

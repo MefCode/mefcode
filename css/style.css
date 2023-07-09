@@ -52,20 +52,20 @@ body b {
   text-shadow: 2px 2px #000000;
 }
 
-.btn-secondary {
-  --bs-btn-bg: #137DC5 !important;
-  --bs-btn-border-color: #f7e8d3 !important;
-  --bs-btn-hover-bg: #333 !important;
-  --bs-btn-hover-border-color: #f7e8d3 !important;
+.btn-mefcode {
+  --bs-btn-bg: #137DC5;
+  --bs-btn-border-color: #f7e8d3;
+  --bs-btn-hover-bg: #333;
+  --bs-btn-hover-border-color: #f7e8d3;
   --bs-btn-focus-shadow-rgb: 130,138,145;
-  --bs-btn-active-color: #1f1f1f !important;
-  --bs-btn-active-bg: #1f1f1f !important;
-  --bs-btn-active-border-color: #f7e8d3 !important;
-  --bs-btn-focus-shadow-rgb: 50px 50px 50px #333 !important;
-  border: 3px solid !important;
+  --bs-btn-active-color: #1f1f1f;
+  --bs-btn-active-bg: #1f1f1f;
+  --bs-btn-active-border-color: #f7e8d3;
+  --bs-btn-focus-shadow-rgb: 50px 50px 50px #333;
+  border: 3px solid white;
   box-shadow: 2px 2px 15px #f7e8d3;
 }
-.btn-secondary .btn-a {
+.btn-mefcode .btn-a {
   color: #f7e8d3;
   text-decoration: none;
   text-shadow: 2px 2px 15px #f7e8d3;
@@ -162,6 +162,7 @@ footer .social-icon img {
 }
 .proyectos main section .card .card-body .btn-proyectos {
   font-size: 1.5rem;
+  color: #f7e8d3;
 }
 .proyectos main section .carousel-control-next,
 .proyectos main section .carousel-control-prev {

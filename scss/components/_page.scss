@@ -16,17 +16,17 @@ body{
 }
 
 
-.btn-secondary {
-  --bs-btn-bg: #{$clr-blue} !important;
-  --bs-btn-border-color: #{$clr-beige} !important;
-  --bs-btn-hover-bg: #{$clr-grey} !important;
-  --bs-btn-hover-border-color: #{$clr-beige} !important;
+.btn-mefcode {
+  --bs-btn-bg: #{$clr-blue};
+  --bs-btn-border-color: #{$clr-beige};
+  --bs-btn-hover-bg: #{$clr-grey};
+  --bs-btn-hover-border-color: #{$clr-beige};
   --bs-btn-focus-shadow-rgb: 130,138,145;
-  --bs-btn-active-color: #{$clr-black} !important;
-  --bs-btn-active-bg: #{$clr-black} !important;
-  --bs-btn-active-border-color: #{$clr-beige} !important;
-  --bs-btn-focus-shadow-rgb: #{$shw-focus} !important;
-  border: $btn-brd !important;
+  --bs-btn-active-color: #{$clr-black};
+  --bs-btn-active-bg: #{$clr-black};
+  --bs-btn-active-border-color: #{$clr-beige};
+  --bs-btn-focus-shadow-rgb: #{$shw-focus};
+  border: $btn-brd;
   box-shadow: $shw;
   .btn-a {
     color: $clr-beige;
