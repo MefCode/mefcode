@@ -36,7 +36,7 @@
         }
         i {
           font-size: $fsz-i;
-          @include card($clr-grey, $shw-txt)
+          @include card($clr-blue, $shw-txt)
         }
       }
     }
