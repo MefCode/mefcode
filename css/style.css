@@ -154,7 +154,7 @@ footer .social-icon img {
 }
 .proyectos main section .card .card-body .card-title, .proyectos main section .card .card-body .card-text {
   color: #333;
-  text-shadow: 1px 1px #959595;
+  text-shadow: 1px 1px #ffcc85;
   font-size: 2rem;
 }
 .proyectos main section .card .card-body .card-text {
@@ -212,12 +212,12 @@ footer .social-icon img {
 }
 .servicios main section .card .card-body .card-title, .servicios main section .card .card-body .card-text {
   color: #333;
-  text-shadow: 1px 1px #959595;
+  text-shadow: 1px 1px #ffcc85;
 }
 .servicios main section .card i {
   font-size: 3rem;
   color: #137DC5;
-  text-shadow: 1px 1px #959595;
+  text-shadow: 1px 1px #ffcc85;
 }
 
 /* Estilos de Contacto */
